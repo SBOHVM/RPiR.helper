@@ -19,3 +19,5 @@ Imports:
     codetools,
     deSolve,
     devtools
+URL: https://github.com/SBOHVM/RPiR.helper
+BugReports: https://github.com/SBOHVM/RPiR.helper/issues
