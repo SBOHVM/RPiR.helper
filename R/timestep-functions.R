@@ -1,3 +1,18 @@
+timestep_deterministic_growth <- function(latest, growth.rate, timestep) {
+  # Modified rate
+  effective.growth.rate <- growth.rate * timestep
+
+  growth.num <- latest$count * effective.growth.rate
+
+  next.count <- latest$count + growth.num
+  next.time <- latest$time + timestep
+
+  new.population <- data.frame(time=next.time, count=next.count)
+
+  list(updated.pop=new.population,
+       end.experiment=(next.count == 0))
+}
+
 timestep_deterministic_SIS <- function(latest, transmission.rate, recovery.rate, timestep) {
   # The total population can be calculated from the various columns of the dataframe
   total.pop <- latest$susceptibles + latest$infecteds
