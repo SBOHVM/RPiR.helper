@@ -1,8 +1,8 @@
 #' Reproducible Programming in R course helper package
 #'
 #' \code{RPiR.helper} provides additional functionality for the Reproducible
-#' Programming in R course, developed by the Institute of Biodiversity, Animal
-#' Health, and Comparative Medicine at the University of Glasgow.
+#' Programming in R course, developed by the `Institute`school of Biodiversity,
+#' One Health, and Veterinary Medicine at the University of Glasgow.
 #'
 #' For more information go to our GitHub page;
 #' \url{https://github.com/SBOHVM/RPiR}
