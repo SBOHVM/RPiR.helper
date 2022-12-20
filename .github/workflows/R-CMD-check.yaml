@@ -39,9 +39,6 @@ jobs:
         with:
           extra-packages: |
             rcmdcheck
-            rmarkdown
-            readr
-            yaml
 
       - name: Check
         env:
