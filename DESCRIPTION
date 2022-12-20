@@ -1,6 +1,6 @@
 Package: RPiR.helper
 Type: Package
-Title: RPiR Course Helper Functionality
+Title: Reproducible Programming In R Course Helper Functionality
 Version: 0.2.0
 Authors@R: c(person("Sonia", "Mitchell", email = "sonia.mitchell@glasgow.ac.uk",
                     role = c("aut"), 
