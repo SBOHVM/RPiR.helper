@@ -19,8 +19,6 @@
 #' @docType package
 #'
 #' @import codetools
-#' @import deSolve
-#' @import devtools
 #' @import graphics
 #'
 #' @examples

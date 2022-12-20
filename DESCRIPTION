@@ -16,8 +16,6 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
 Imports: 
-    codetools,
-    deSolve,
-    devtools
+    codetools
 URL: https://github.com/SBOHVM/RPiR.helper
 BugReports: https://github.com/SBOHVM/RPiR.helper/issues
