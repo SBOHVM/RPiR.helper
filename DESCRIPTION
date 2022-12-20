@@ -17,5 +17,7 @@ LazyData: true
 RoxygenNote: 7.2.3
 Imports: 
     codetools
+Suggests: 
+    deSolve
 URL: https://github.com/SBOHVM/RPiR.helper
 BugReports: https://github.com/SBOHVM/RPiR.helper/issues
