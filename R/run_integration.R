@@ -10,7 +10,7 @@
 #' first of which is a vector of the derivatives of the population at pop_vec,
 #' and the second is an empty vector.
 #'
-#' Require 'deSolve' package to run.
+#' Requires 'deSolve' package to be installed.
 #'
 #' @param deriv_function Function to calculate derivative
 #' @param populations Data frame with columns corresponding to function

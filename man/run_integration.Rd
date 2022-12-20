@@ -40,4 +40,6 @@ of the population in a vector with named elements, and param_vec contains a
 vector of named parameters. It must return a list with two elements, the
 first of which is a vector of the derivatives of the population at pop_vec,
 and the second is an empty vector.
+
+Requires 'deSolve' package to be installed.
 }
